@@ -17,7 +17,7 @@ Technologies that I used to develop this api
 
 2. Open `mongodb.ts` file and change `const MONGO_URL = 'mongodb://localhost:27017'` to connect to your mongodb database.
 
-3. Start the server by running `deno run --allow-net --allow-write --allow-read --allow-plugin --unstable server.ts`
+3. Start the server by running `deno run --allow-net --allow-write --allow-read --allow-plugin --unstable --allow-env server.ts`
 
 ## Usage
 You can access the following endpoints on [http://localhost:8000](http://localhost:8000)
